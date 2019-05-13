@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import iconImg from "../components/iconimg"
+import iconImg from "../components/iconImg"
 
-const test = () => (
+const lol = () => (
   <Layout>
     <SEO title="Page 3" />
     <h1>Hi from the seconsadasd page</h1>
@@ -17,4 +17,4 @@ const test = () => (
   </Layout>
 )
 
-export default test
+export default lol
