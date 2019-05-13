@@ -10,7 +10,7 @@ const test = () => (
     <SEO title="Page 3" />
     <h1>Hi from the seconsadasd page</h1>
     <p>Welcome to sadaspage sadas2</p>
-    <div class="img-wrapper">
+    <div className="img-wrapper">
     <Image/>
     </div>
     <Link to="/">Go back to the homepage</Link>
