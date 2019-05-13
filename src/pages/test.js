@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/iconimg"
+import iconImg from "../components/iconimg"
 
 const test = () => (
   <Layout>
@@ -11,7 +11,7 @@ const test = () => (
     <h1>Hi from the seconsadasd page</h1>
     <p>Welcome to sadaspage sadas2</p>
     <div className="img-wrapper">
-    <Image/>
+    <iconImg />
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
