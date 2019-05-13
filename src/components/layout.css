@@ -625,3 +625,6 @@ pre tt:after {
   color:red;
   background: red;
 }
+.img-wrapper{
+  width: 200px;
+}
