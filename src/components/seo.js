@@ -32,6 +32,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       htmlAttributes={{
         lang,
       }}
+     
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
@@ -77,7 +78,10 @@ function SEO({ description, lang, meta, keywords, title }) {
             : []
         )
         .concat(meta)}
-    />
+        
+    >
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans"  rel="stylesheet" />
+    </Helmet>
   )
 }
 
