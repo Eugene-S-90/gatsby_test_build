@@ -1,0 +1,13 @@
+.qt-main-screen__right-img {
+    width: 509px;
+}
+.qt-main-screen {
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 595px;
+}
+.qt-main-screen__content-wr {
+    display: flex;
+    justify-content: center;
+}
