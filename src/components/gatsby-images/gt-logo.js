@@ -13,11 +13,11 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const QtLogo = () => (
+const QcLogo = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "qt-logo.png" }) {
+        placeholderImage: file(relativePath: { eq: "qc-logo.png" }) {
           childImageSharp {
             fluid(maxWidth: 195) {
               ...GatsbyImageSharpFluid
@@ -29,4 +29,4 @@ const QtLogo = () => (
     render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
-export default QtLogo
+export default QcLogo

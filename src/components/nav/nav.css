@@ -1,23 +1,23 @@
-.qt-nav__logo{
+.qc-nav__logo{
     width: 195px;
 }
-.qt-nav {
+.qc-nav {
     display: flex;
     justify-content: space-between;
     width: 1218px;
     margin: 0 auto;
 }
-.qt-nav__link-list{
+.qc-nav__link-list{
     list-style: none;
 }
-.qt-nav__link-list {
+.qc-nav__link-list {
     display: flex;
     margin: 0px;
     padding: 0px;
     width: 495px;
     justify-content: space-between;
 }
-.qt-nab__link-item {
+.qc-nab__link-item {
     position: relative;
     font-family: Nunito Sans;
     font-style: normal;
@@ -27,15 +27,15 @@
     color: #2E3D4E;
     text-decoration: none;
 }
-.qt-nav__link {
+.qc-nav__link {
     display: flex;
     align-items: center;
 }
-.qt-nab__link-item:hover {
+.qc-nab__link-item:hover {
     color: #E2696C;
     transition: all 0.3s ease-in-out 0s;
 }
-.qt-nab__link-item:before {
+.qc-nab__link-item:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -49,12 +49,12 @@
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
-.qt-nab__link-item:hover:before {
+.qc-nab__link-item:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  .qt-nab__link-item-hire {
+  .qc-nab__link-item-hire {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;

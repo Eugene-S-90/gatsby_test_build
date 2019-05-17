@@ -1,0 +1,21 @@
+.qc-card {
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+.qc-card__wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 490px;
+    align-items: center;
+    padding-right: 112px;
+    padding-left: 112px;
+}
+.qc-card__item {
+    background: #fff;
+    border: 1px solid #DFE2E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 280px;
+    text-align: center;
+    height: 286px;
+}

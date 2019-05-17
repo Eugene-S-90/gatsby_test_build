@@ -25,9 +25,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div class="global-container">
+        <div className="global-container">
 
-          <main class="main">
+          <main className="main">
           {/* <Nav siteTitle={data.site.siteMetadata.title} /> */}
           {children}</main>
           <footer>
