@@ -6,9 +6,10 @@
     display: flex;
     justify-content: space-between;
     min-height: 490px;
-    align-items: center;
+    /* align-items: center; */
     padding-right: 112px;
     padding-left: 112px;
+    padding-top: 58px;
 }
 .qc-card__item {
     background: #fff;
@@ -18,4 +19,49 @@
     width: 280px;
     text-align: center;
     height: 286px;
+    transition: 0.3s all;
+    /* padding-bottom: 30px; */
 }
+.qc-card__item:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(95, 110, 127, 0.109921);
+    border-radius: 4px;
+}
+
+.qc-card__item-img {
+    padding-top: 40px;
+}
+.qc-card__item-title {
+    padding-top: 20px;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 26px;
+color: #2E3D4E;
+}
+.qc-card__item-description {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5F6E7F;
+    padding-top: 23px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.qc-card__item-link {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #DE5458;
+    text-decoration: none;
+    margin-top: 40px;
+    display: inline-block;
+}
+

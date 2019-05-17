@@ -24,7 +24,7 @@ const CardSection = () => (
             <div className="qc-card__item">
                 <div className="qc-card__item-img"><img src={Icon2} alt="img" /></div>
                 <h4 className="qc-card__item-title">Algo engines</h4>
-                <p className="qc-card__item-description">Catalyst is an algorithmic trading library for crypto-assets based on Zipline</p>
+                <p className="qc-card__item-description">Algorithmic trading library for crypto-assets based on Zipline</p>
                 <a href="#" className="qc-card__item-link">Read more</a>
             </div>
             <div className="qc-card__item">
