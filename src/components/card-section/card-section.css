@@ -5,7 +5,7 @@
 .qc-card__wrapper {
     display: flex;
     justify-content: space-between;
-    min-height: 490px;
+    min-height: 435px;
     /* align-items: center; */
     padding-right: 112px;
     padding-left: 112px;
@@ -34,11 +34,21 @@
 .qc-card__item-title {
     padding-top: 20px;
     font-family: Nunito Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 19px;
-line-height: 26px;
-color: #2E3D4E;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+    color: #2e3d4e;
+    position: relative;
+}
+.qc-card__item-title:before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 2px;
+    background: #E2696C;
+    top: 55px;
+    left: 130px;
 }
 .qc-card__item-description {
     font-family: Nunito Sans;

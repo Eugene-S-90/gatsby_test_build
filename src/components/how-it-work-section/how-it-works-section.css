@@ -1,0 +1,33 @@
+.qc-how-it-works__title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #2E3D4E;
+    margin-block-end: 40px;
+}
+.qc-how-it-works__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.qc-how-it-works__img-wr {
+    position: relative;
+}
+.qc-how-it-works__img {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.qc-how-it-works__img-wr:not(:last-child):after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #DFE2E5;
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 163px;
+}
