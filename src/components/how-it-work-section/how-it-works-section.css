@@ -15,6 +15,17 @@
 
 .qc-how-it-works__img-wr {
     position: relative;
+    width: 215px;
+}
+.qc-how-it-works__descr {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #5F6E7F;
+    margin-top: 12px;
 }
 .qc-how-it-works__img {
     margin-left: 60px;

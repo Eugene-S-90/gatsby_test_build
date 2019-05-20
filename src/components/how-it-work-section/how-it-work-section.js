@@ -14,14 +14,24 @@ const HowItWorksSection = () => (
     <div className="qc-how-it-works">
         <h2 className="qc-how-it-works__title">How does it work?</h2>
         <div className="qc-how-it-works__wrapper">
-            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet1} alt="bullet" />
-            {/* <p className="qc-how-it-works__descr">Development of the trading algorithm</p> */}
+            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet6} alt="bullet" />
+                <p className="qc-how-it-works__descr">Development of the <br/>trading algorithm</p>
             </div>
-            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet2} alt="bullet" /></div>
-            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet3} alt="bullet" /></div>
-            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet4} alt="bullet" /></div>
-            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet5} alt="bullet" /></div>
-            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet6} alt="bullet" /></div>
+            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet5} alt="bullet" />
+            <p className="qc-how-it-works__descr">Testing for historical<br/> data </p>
+            </div>
+            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet4} alt="bullet" />
+            <p className="qc-how-it-works__descr">Optimization</p>
+            </div>
+            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet3} alt="bullet" />
+            <p className="qc-how-it-works__descr">Ready-to-use<br/> algorithm </p>
+            </div>
+            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet2} alt="bullet" />
+            <p className="qc-how-it-works__descr">Algo-trading<br/> management</p>
+            </div>
+            <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet1} alt="bullet" />
+            <p className="qc-how-it-works__descr">Auto-reportsm</p>
+            </div>
         </div>
     </div>
 )
