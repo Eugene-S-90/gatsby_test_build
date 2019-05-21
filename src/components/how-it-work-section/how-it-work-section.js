@@ -33,6 +33,7 @@ const HowItWorksSection = () => (
             <p className="qc-how-it-works__descr">Auto-reportsm</p>
             </div>
         </div>
+        <a href="#" class="qc-how-it-works__btn ">Make a request</a>
     </div>
 )
 
