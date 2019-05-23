@@ -1,0 +1,49 @@
+.qc-trading {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position-x: 65%;
+    background-position-y: 26%;
+}
+.qc-trading__title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #2E3D4E;
+    margin-top: 145px;
+}
+.qc-trading__description {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5F6E7F;
+    margin-top: 43px;
+    padding-right: 14%;
+}
+.qc-trading__img-wrapper {
+    width: 484px;
+    margin-left: 85px;
+    margin-top: 138px;
+}
+.qc-trading__right {
+    width: 60%;
+    margin-left: 56px;
+}
+.qc-trading__left {
+    width: 40%;
+}
+.qc-trading__exchanges {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 25px;
+}
+.qc-trading__exchanges-img {
+    margin-right: 40px;
+}

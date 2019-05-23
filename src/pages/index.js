@@ -6,23 +6,19 @@ import MainScreen from "../components/main-screen/main-screen"
 import CardSection from "../components/card-section/card-section"
 import HowItWorksSection from "../components/how-it-work-section/how-it-work-section"
 import FreedomSection from "../components/fredom-section/freedom-section"
+import TradingSection from "../components/trading-section/trading-section"
 
 import Image from "../components/gatsby-images/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="new lp home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="QuantCloud" keywords={[`gatsby`, `application`, `react`]} />
     <MainScreen />
     <CardSection/>
     <HowItWorksSection/>
     <FreedomSection/>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <TradingSection/>
     <Link to="/test/">Go to page 3</Link>
   </Layout>
 )

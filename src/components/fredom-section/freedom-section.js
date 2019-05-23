@@ -7,6 +7,8 @@ import GoogleImg from "../../images/qc-google.png"
 import GithubImg from "../../images/qc-github.png"
 import TensorImg from "../../images/qc-tensor.png"
 
+import SvgImgFreedom from "../../images/qc-freedom.svg"
+
 import FreedomImg from "../gatsby-images/gt-freedom"
 
 
@@ -34,7 +36,8 @@ const FreedomSection = () => (
             </div>
         </div>
         <div className="qc-freedom__right">
-        <FreedomImg/>
+        <img src={SvgImgFreedom}/>
+        {/* <FreedomImg/> */}
         </div>
     </div>
 )

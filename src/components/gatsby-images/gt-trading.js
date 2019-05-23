@@ -13,20 +13,20 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const QcLogo = () => (
+const QcTrading = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "qc-logo.png" }) {
+        placeholderImage: file(relativePath: { eq: "qc-trading.png" }) {
           childImageSharp {
-            fluid(maxWidth: 195) {
+            fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid}  />}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
-export default QcLogo
+export default QcTrading
