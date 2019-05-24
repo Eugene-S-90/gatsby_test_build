@@ -38,6 +38,17 @@
 .qc-trading__left {
     width: 40%;
 }
+.qc-trading__support {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #2E3D4E;
+    margin-top: 45px;
+}
 .qc-trading__exchanges {
     display: flex;
     align-items: center;

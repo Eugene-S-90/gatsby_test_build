@@ -7,6 +7,7 @@ import CardSection from "../components/card-section/card-section"
 import HowItWorksSection from "../components/how-it-work-section/how-it-work-section"
 import FreedomSection from "../components/fredom-section/freedom-section"
 import TradingSection from "../components/trading-section/trading-section"
+import CrmSection from "../components/crm-section/crm-section"
 
 import Image from "../components/gatsby-images/image"
 import SEO from "../components/seo"
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <HowItWorksSection/>
     <FreedomSection/>
     <TradingSection/>
+    <CrmSection/>
     <Link to="/test/">Go to page 3</Link>
   </Layout>
 )
