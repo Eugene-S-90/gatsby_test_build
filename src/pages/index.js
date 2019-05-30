@@ -8,6 +8,7 @@ import HowItWorksSection from "../components/how-it-work-section/how-it-work-sec
 import FreedomSection from "../components/fredom-section/freedom-section"
 import TradingSection from "../components/trading-section/trading-section"
 import CrmSection from "../components/crm-section/crm-section"
+import ReportsSection from "../components/reports-section/reports-section"
 
 import Image from "../components/gatsby-images/image"
 import SEO from "../components/seo"
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <FreedomSection/>
     <TradingSection/>
     <CrmSection/>
+    <ReportsSection/>
     <Link to="/test/">Go to page 3</Link>
   </Layout>
 )
