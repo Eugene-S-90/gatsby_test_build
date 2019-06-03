@@ -3,15 +3,16 @@ import React from "react"
 import './reports-section.css'
 
 
-import FreedomBg from "../../images/qc-freedom-bg.png"
-import ImgSetup from "../../images/qc-Easy_Setup.svg"
-import ImgReports from "../../images/qc-Reports.svg"
-import ImgSec from "../../images/qc-Security.svg"
-import ImgTelegram from "../../images/qc-Telegram.svg"
+import ImgGrapg from "../../images/qc-graph.svg"
+import ImgList from "../../images/qc-list.svg"
+import ImgTax from "../../images/qc-tax.svg"
+import ImgPort from "../../images/qc-port.svg"
+import ImgRisk from "../../images/qc-risk.svg"
+
 
 import BgTradingImg from "../../images/qc-bg-trading.png"
 
-import TradingImg from "../gatsby-images/gt-trading"
+import ReportsImg from "../gatsby-images/gt-reports"
 
 
 
@@ -21,7 +22,7 @@ const ReportsSection = () => (
     }}>
         <div className="qc-reports__left">
             <div className="qc-reports__img-wrapper">
-                <TradingImg />
+                <ReportsImg />
             </div>
         </div>
         <div className="qc-reports__right">
@@ -29,38 +30,39 @@ const ReportsSection = () => (
             <p className="qc-reports__description">
             Quantcloud provides real-time reports of your trading. Bring clarity to the macro and micro performance of your overall portfolio and individual holdings. 
             </p>
-            <div className="qc-crm__bullets">
-            <div className="qc-crm__bullets-item">
-                <img src={ImgSetup} className="qc-crm__bullets-img" alt="img" />
-                <p className="qc-crm__bullets-descr">
-                Easy setup of trading configuration
+            <div className="qc-reports__bullets">
+            <div className="qc-reports__bullets-item">
+                <img src={ImgGrapg} className="qc-reports__bullets-img" alt="img" />
+                <p className="qc-reports__bullets-descr">
+                Profit / loss reports
                 </p>
             </div>
-            <div className="qc-crm__bullets-item">
-                <img src={ImgReports} className="qc-crm__bullets-img b-img2" alt="img" />
-                <p className="qc-crm__bullets-descr">
-                Convenient financial reports
+            <div className="qc-reports__bullets-item">
+                <img src={ImgPort} className="qc-reports__bullets-img " alt="img" />
+                <p className="qc-reports__bullets-descr">
+                Sub-portfolios
                 </p>
             </div>
-            <div className="qc-crm__bullets-item">
-                <img src={ImgTelegram} className="qc-crm__bullets-img" alt="img" />
-                <p className="qc-crm__bullets-descr">
-                Telegram notifications
+            <div className="qc-reports__bullets-item">
+                <img src={ImgList} className="qc-reports__bullets-img" alt="img" />
+                <p className="qc-reports__bullets-descr">
+                List of all trades and fees
                 </p>
             </div>
-            <div className="qc-crm__bullets-item">
-                <img src={ImgSec} className="qc-crm__bullets-img b-img4" alt="img" />
-                <p className="qc-crm__bullets-descr">
-                Security system for api keys
+            <div className="qc-reports__bullets-item">
+                <img src={ImgTax} className="qc-reports__bullets-img " alt="img" />
+                <p className="qc-reports__bullets-descr">
+                12 tax declaration methods
                 </p>
             </div>
-            <div className="qc-crm__bullets-item">
-                <img src={ImgSec} className="qc-crm__bullets-img " alt="img" />
-                <p className="qc-crm__bullets-descr">
-                Security system for api keys
+            <div className="qc-reports__bullets-item">
+                <img src={ImgRisk} className="qc-reports__bullets-img " alt="img" />
+                <p className="qc-reports__bullets-descr">
+                Risk profiles
                 </p>
             </div>
         </div>
+        <a href="#" className="qc-reports-btn">Shedule a demo</a>
         </div>
     </div>
 )

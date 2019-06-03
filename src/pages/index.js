@@ -23,7 +23,6 @@ const IndexPage = () => (
     <TradingSection/>
     <CrmSection/>
     <ReportsSection/>
-    <Link to="/test/">Go to page 3</Link>
   </Layout>
 )
 
