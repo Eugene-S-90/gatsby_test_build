@@ -62,7 +62,7 @@ const ReportsSection = () => (
                 </p>
             </div>
         </div>
-        <a href="#" className="qc-reports-btn">Shedule a demo</a>
+        <a href="#" className="qc-reports-btn">Schedule a demo</a>
         </div>
     </div>
 )

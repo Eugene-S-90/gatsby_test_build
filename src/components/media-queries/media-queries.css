@@ -35,4 +35,16 @@
     width: 1365px;
     margin: 0 auto;
   }
+  .qc-main-screen__left-title {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    color: #2E3D4E;
+    padding-top: 165px;
+    padding-right: 25%;
+}
   }

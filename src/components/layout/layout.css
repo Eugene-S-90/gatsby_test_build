@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5,h6,p {
 .qc-footer__right-legal {
   display: flex;
   flex-direction: column;
-  margin-left: 18.5%;
+  margin-left: 17.5%;
 }
 .qc-footer__right-link {
   font-family: Nunito Sans;
@@ -88,7 +88,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .footer-email {
   margin-right: 15px;
-  margin-bottom: 10px;
 }
 .footer-phone{
   margin-right: 15px;

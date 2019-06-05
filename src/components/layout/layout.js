@@ -18,7 +18,7 @@ import FooterEmailImg from "../../images/qc-email.svg"
 import FooterPhoneImg from "../../images/qc-phone.svg"
 
 // import Nav from "../nav/nav"
-import "./layout_and_media_queries.css"
+import "./layout.css"
 
 
 const Layout = ({ children }) => (
@@ -51,13 +51,13 @@ const Layout = ({ children }) => (
               </div>
               <div className="qc-footer__right">
                 <div className="qc-footer__right-info"><h5 className="qc-footer__right-title">Contact info</h5>
-                  <a href="#" className="qc-footer__right-link footer-email"><img src={FooterEmailImg} alt="img"/>info@quantcloud.com</a>
-                  <a href="#" className="qc-footer__right-link footer-phone"><img src={FooterPhoneImg} alt="img"/>+38 097 783 88 90</a>
+                  <a href="#" className="qc-footer__right-link footer-email"><img className="footer-email" src={FooterEmailImg} alt="img"/>info@quantcloud.com</a>
+                  <a href="#" className="qc-footer__right-link footer-phone"><img className="footer-phone" src={FooterPhoneImg} alt="img"/>+38 097 783 88 90</a>
                 </div>
                 <div className="qc-footer__right-links"><h5 className="qc-footer__right-title">Quick links</h5>
                   <a href="#" className="qc-footer__right-link">Home</a>
                   <a href="#" className="qc-footer__right-link">Features</a>
-                  <a href="#" className="qc-footer__right-link">Shedule a demo</a>
+                  <a href="#" className="qc-footer__right-link">Schedule a demo</a>
                 </div>
                 <div className="qc-footer__right-legal"><h5 className="qc-footer__right-title">Legal</h5>
                   <a href="#" className="qc-footer__right-link">Terms & conditions</a>
