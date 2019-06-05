@@ -10,7 +10,7 @@ import ImgPort from "../../images/qc-port.svg"
 import ImgRisk from "../../images/qc-risk.svg"
 
 
-import BgTradingImg from "../../images/qc-bg-trading.png"
+import bgImg from "../../images/qc-bg-rect.png"
 
 import ReportsImg from "../gatsby-images/gt-reports"
 
@@ -18,7 +18,7 @@ import ReportsImg from "../gatsby-images/gt-reports"
 
 const ReportsSection = () => (
     <div className="qc-reports" style={{
-        backgroundImage: "url(" +BgTradingImg+ ")",
+        backgroundImage: "url(" +bgImg+ ")",
     }}>
         <div className="qc-reports__left">
             <div className="qc-reports__img-wrapper">

@@ -9,8 +9,17 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+import FooterLogoImg from "../../images/qc-footer-logo.svg"
+import FooterTWImg from "../../images/qc-twitter.svg"
+import FooterTGImg from "../../images/qc-telegram-footer.svg"
+import FooterREImg from "../../images/qc-reddit.svg"
+
+import FooterEmailImg from "../../images/qc-email.svg"
+import FooterPhoneImg from "../../images/qc-phone.svg"
+
 // import Nav from "../nav/nav"
-import "./layout.css"
+import "./layout_and_media_queries.css"
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -33,26 +42,27 @@ const Layout = ({ children }) => (
           <footer className="qc-footer">
             <div className="qc-footer__wrapper">
               <div className="qc-footer__left">
-                <img className="qc-footer__left-logo" src="#" alt="logo" />
+                <img className="qc-footer__left-logo" src={FooterLogoImg} alt="logo" />
                 <div className="qc-footer__left-icons">
-                  <img className="qc-footer__left-icons-tw" src="#" alt="tw" />
-                  <img className="qc-footer__left-icons-tg" src="#" alt="tg" />
-                  <img className="qc-footer__left-icons-wtf" src="#" alt="wtf" />
+                  <a href="#"><img className="qc-footer__left-icons-tw" src={FooterTWImg} alt="tw" /></a>
+                  <a href="#"><img className="qc-footer__left-icons-tg" src={FooterTGImg} alt="tg" /></a>
+                  <a href="#"> <img className="qc-footer__left-icons-wtf" src={FooterREImg} alt="wtf" /></a>
                 </div>
               </div>
               <div className="qc-footer__right">
-                <div className="qc-footer__right-info"><h5>Contact info</h5>
-                  <a href="#">Home</a>
+                <div className="qc-footer__right-info"><h5 className="qc-footer__right-title">Contact info</h5>
+                  <a href="#" className="qc-footer__right-link footer-email"><img src={FooterEmailImg} alt="img"/>info@quantcloud.com</a>
+                  <a href="#" className="qc-footer__right-link footer-phone"><img src={FooterPhoneImg} alt="img"/>+38 097 783 88 90</a>
                 </div>
-                <div className="qc-footer__right-links"><h5>Quick links</h5>
-                  <a href="#">Home</a>
-                  <a href="#">Features</a>
-                  <a href="#">Shedule a demo</a>
+                <div className="qc-footer__right-links"><h5 className="qc-footer__right-title">Quick links</h5>
+                  <a href="#" className="qc-footer__right-link">Home</a>
+                  <a href="#" className="qc-footer__right-link">Features</a>
+                  <a href="#" className="qc-footer__right-link">Shedule a demo</a>
                 </div>
-                <div className="qc-footer__right-legal"><h5>legal</h5>
-                  <a href="#">Terms & conditions</a>
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Cookies policy</a>
+                <div className="qc-footer__right-legal"><h5 className="qc-footer__right-title">Legal</h5>
+                  <a href="#" className="qc-footer__right-link">Terms & conditions</a>
+                  <a href="#" className="qc-footer__right-link">Privacy Policy</a>
+                  <a href="#" className="qc-footer__right-link">Cookies policy</a>
                 </div>
               </div>
             </div>

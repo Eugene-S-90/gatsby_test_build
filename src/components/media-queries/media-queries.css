@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1441px) {
+    .global-container{
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .qc-freedom {
+      background-repeat: no-repeat;
+      background-position-x: left;
+      display: flex;
+      margin-top: 65px;
+      justify-content: center;
+  }
+  .qc-crm {
+    background-repeat: no-repeat;
+    background-position-x: -19px;
+    display: flex;
+    margin-top: 65px;
+    background-position-y: 13px;
+    justify-content: center;
+  }
+  .qc-reports__right {
+    width: 60%;
+    margin-left: 65px;
+  }
+  .qc-main-screen__content-wr {
+    display: flex;
+    justify-content: center;
+    width: 1365px;
+    margin: 0 auto;
+  }
+  .qc-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1365px;
+    margin: 0 auto;
+  }
+  }

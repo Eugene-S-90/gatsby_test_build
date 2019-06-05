@@ -10,6 +10,8 @@ import TradingSection from "../components/trading-section/trading-section"
 import CrmSection from "../components/crm-section/crm-section"
 import ReportsSection from "../components/reports-section/reports-section"
 
+import MediaQueries from "../components/media-queries/media-queries"
+
 import Image from "../components/gatsby-images/image"
 import SEO from "../components/seo"
 
@@ -23,6 +25,7 @@ const IndexPage = () => (
     <TradingSection/>
     <CrmSection/>
     <ReportsSection/>
+    <MediaQueries/>
   </Layout>
 )
 
