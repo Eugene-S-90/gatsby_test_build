@@ -16,7 +16,7 @@ import ReportsImg from "../gatsby-images/gt-reports"
 
 
 
-const ReportsSection = () => (
+const ReportsSection = (props) => (
     <div className="qc-reports" style={{
         backgroundImage: "url(" +bgImg+ ")",
     }}>
@@ -62,7 +62,7 @@ const ReportsSection = () => (
                 </p>
             </div>
         </div>
-        <a href="#" className="qc-reports-btn">Schedule a demo</a>
+        <a href="#" className="qc-reports-btn" onClick={props.onOpenModal}>Schedule a demo</a>
         </div>
     </div>
 )

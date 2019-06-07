@@ -1,0 +1,96 @@
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  margin: 0 0 10px;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  background: #fff;
+  resize: none;
+  outline: none;
+  border-radius: 3px;
+}
+input[type="text"][required]:focus {
+  border-color: #2E3D4E;
+}
+input[type="text"][required]:focus + label[placeholder]:before {
+  color: #2E3D4E;
+}
+input[type="text"][required]:focus + label[placeholder]:before,
+input[type="text"][required]:valid + label[placeholder]:before {
+  transition-duration: .2s;
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+input[type="text"][required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+input[type="text"][required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+}
+input[type="text"][required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 8px;
+  padding: 0 2px;
+  color: #898989;
+  white-space: nowrap;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  background: #fff;
+  resize: none;
+  outline: none;
+  margin-bottom: 25px;
+}
+.qc-form__btn {
+  background: #DE5458;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 48px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.styles_modal__gNwvD {
+  max-width: 800px;
+  position: relative;
+  padding: 40px;
+  background: #ffffff;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  width: 328px;
+}
+.qc-form__title{
+  font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+color: #2E3D4E;
+margin-bottom: 20px;
+}

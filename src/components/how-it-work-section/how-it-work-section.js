@@ -10,7 +10,7 @@ import Bullet5 from "../../images/qc-bullet-5.png"
 import Bullet6 from "../../images/qc-bullet-6.png"
 
 
-const HowItWorksSection = () => (
+const HowItWorksSection = (props) => (
     <div className="qc-how-it-works">
         <h2 className="qc-how-it-works__title">How does it work?</h2>
         <div className="qc-how-it-works__wrapper">
@@ -33,7 +33,7 @@ const HowItWorksSection = () => (
             <p className="qc-how-it-works__descr">Auto-reportsm</p>
             </div>
         </div>
-        <a href="#" class="qc-how-it-works__btn ">Make a request</a>
+        <a href="#" class="qc-how-it-works__btn " onClick={props.onOpenModal}>Make a request</a>
     </div>
 )
 

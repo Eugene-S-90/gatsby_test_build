@@ -6,28 +6,47 @@ import './modal.css'
 
 
 class ModalForm extends Component {
-    state = {
-        open: false
-    };
-    onOpenModal = () => {
-        this.setState({ open: true });
-    };
-
-    onCloseModal = () => {
-        this.setState({ open: false });
-    };
+    constructor(props) {
+        super(props);
+    }
     render() {
-        const { open } = this.state;
         return (
             <>
-                <a href="#" className="qc-main-screen__left-btn" onClick={this.onOpenModal}>Shedule a demo</a>
-                <Modal open={open} onClose={this.onCloseModal}>
-                    <h2>Simple centered modal</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                        pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-                        hendrerit risus, sed porttitor quam.
-          </p>
+
+                <Modal open={this.props.open} onClose={this.props.closeModal}>
+                    <h2 className="qc-form__title">Schedule a Demo</h2>
+                    <form>
+                        <div className='qc-form__input-wr'>
+                            <input required='required' type='text' />
+                            <label alt='Full Name' placeholder='Full Name'></label>
+                        </div>
+                        <div className='qc-form__input-wr'>
+                            <input required='required' type='text' />
+                            <label alt='Company Name' placeholder='Company Name'></label>
+                        </div>
+                        <div className='qc-form__input-wr'>
+                            <input required='required' type='text' />
+                            <label alt='Position' placeholder='Position'></label>
+                        </div>
+                        <div className='qc-form__input-wr'>
+                            <input required='required' type='text' />
+                            <label alt='Email' placeholder='Email'></label>
+                        </div>
+                        <div className='qc-form__input-wr'>
+                            <select required='required'>
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                        <div className='qc-form__input-wr'>
+                            <input required='required' type='text' />
+                            <label alt='Phone' placeholder='Phone'></label>
+                        </div>
+                        <a href="#" className="qc-form__btn">Send</a>
+                    </form>
+
                 </Modal>
             </>
         );
