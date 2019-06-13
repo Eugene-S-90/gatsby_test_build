@@ -2,12 +2,12 @@
 import React from "react"
 import './how-it-works-section.css'
 
-import Bullet1 from "../../images/qc-bullet-1.png"
-import Bullet2 from "../../images/qc-bullet-2.png"
-import Bullet3 from "../../images/qc-bullet-3.png"
-import Bullet4 from "../../images/qc-bullet-4.png"
-import Bullet5 from "../../images/qc-bullet-5.png"
-import Bullet6 from "../../images/qc-bullet-6.png"
+import Bullet1 from "../../images/qc-bullet-1.svg"
+import Bullet2 from "../../images/qc-bullet-2.svg"
+import Bullet3 from "../../images/qc-bullet-3.svg"
+import Bullet4 from "../../images/qc-bullet-4.svg"
+import Bullet5 from "../../images/qc-bullet-5.svg"
+import Bullet6 from "../../images/qc-bullet-6.svg"
 
 
 const HowItWorksSection = (props) => (

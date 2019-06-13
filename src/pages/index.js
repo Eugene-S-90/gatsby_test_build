@@ -16,7 +16,7 @@ import ModalFormHireUs from "../components/modal-hire/modal-hire"
 
 import MediaQueries from "../components/media-queries/media-queries"
 
-import Image from "../components/gatsby-images/image"
+
 import SEO from "../components/seo"
 
 class IndexPage extends Component {

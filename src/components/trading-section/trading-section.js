@@ -9,6 +9,8 @@ import BinImg from "../../images/qc-binance.png"
 import BitfImg from "../../images/qc-bitfinex.png"
 import BgTradingImg from "../../images/qc-bg-trading.png"
 
+import TradingImgSVG from "../../images/qc-trading.svg"
+
 import TradingImg from "../gatsby-images/gt-trading"
 
 
@@ -19,7 +21,8 @@ const tradingSection = () => (
     }}>
         <div className="qc-trading__left">
             <div className="qc-trading__img-wrapper">
-                <TradingImg />
+            <img src={TradingImgSVG} alt="img"/>
+                {/* <TradingImg /> */}
             </div>
         </div>
         <div className="qc-trading__right">

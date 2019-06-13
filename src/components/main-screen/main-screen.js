@@ -3,6 +3,7 @@ import React, { Component } from "react"
 import './main-screen.css'
 import Nav from "../nav/nav"
 import ScreenImg from "../gatsby-images/gt-screen"
+import ScreenImgSVG from "../../images/qc-screen.svg"
 import BgImg from "../../images/qc-bg.png"
 
 const MainScreen = (props) => (
@@ -18,7 +19,8 @@ const MainScreen = (props) => (
                     </div>
                     <div className="qc-main-screen__right">
                         <div className="qc-main-screen__right-img">
-                            <ScreenImg />
+                        <img src={ScreenImgSVG}/>
+                             {/* <ScreenImg /> */}
                         </div>
                     </div>
                 </div>

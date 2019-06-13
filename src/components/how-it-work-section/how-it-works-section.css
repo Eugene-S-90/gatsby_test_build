@@ -43,8 +43,8 @@
     left: 163px;
 }
 .qc-how-it-works__btn {
-    background: #E2696C;
-    box-shadow: 0px 10px 25px rgba(226, 105, 108, 0.4);
+    background: #DE5458;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
     border-radius: 4px;
     width: 190px;
     height: 50px;
@@ -65,4 +65,11 @@
     margin: 0 auto;
     margin-top: 39px;
     letter-spacing: 1px;
+    transition: 0.3s all;
 }
+.qc-how-it-works__btn:hover {
+    background: #E2696C;
+    box-shadow: 0px 10px 25px rgba(226, 105, 108, 0.4);
+    border-radius: 4px;
+}
+

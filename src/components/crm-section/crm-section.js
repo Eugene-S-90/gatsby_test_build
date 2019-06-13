@@ -4,7 +4,7 @@ import './crm-section.css'
 
 import FreedomBg from "../../images/qc-freedom-bg.png"
 import ImgSetup from "../../images/qc-Easy_Setup.svg"
-import ImgReports from "../../images/qc-Reports.svg"
+import ImgReports from "../../images/qc-reports-bl.svg"
 import ImgSec from "../../images/qc-Security.svg"
 import ImgTelegram from "../../images/qc-Telegram.svg"
 
