@@ -74,6 +74,9 @@ select {
   color: #FFFFFF;
   text-decoration: none;
   margin: 0 auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 .styles_modal__gNwvD {
   max-width: 800px;
