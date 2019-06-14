@@ -15,6 +15,7 @@ class ModalForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            buttonBody:'Send',
             thankYouMessage: false,
             'entry.1227224232': '',
             'entry.471800': '',
@@ -42,6 +43,7 @@ class ModalForm extends Component {
         for (var pair of formData.entries()) {
             console.log(pair[0] + ', ' + pair[1]);
         }
+        this.setState({ buttonBody: "I'm sending..."  });
         axios.post('https://cors-anywhere.herokuapp.com/https://docs.google.com/forms/u/3/d/e/1FAIpQLSdyRjaQj7cAD1LgTAhpSeadQnM9lMBOZYNb2hpgCaWLvz9C-g/formResponse',
             formData
         )
@@ -50,6 +52,7 @@ class ModalForm extends Component {
                     console.log("nice!")
                     this.setState({ thankYouMessage: true });
                     setTimeout(() => {
+                        this.setState({ buttonBody: "Send"  });
                         this.setState({ thankYouMessage: false });
                     }, 4000);
                 }
@@ -91,7 +94,7 @@ class ModalForm extends Component {
                                     <input className="qc-form__input" required='required' type='tel' name="entry.428806248" onChange={this.handleChange} />
                                     <label alt='Phone' placeholder='Phone'></label>
                                 </div>
-                                <button type="submit" class="qc-form__btn">Send</button>
+                                <button type="submit" class="qc-form__btn">{this.state.buttonBody}</button>
                             </form>
                         </div>)
                         : (<THP closeModal={this.props.closeModal} />)}
