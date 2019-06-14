@@ -29,7 +29,7 @@ const CardSection = () => (
             </div>
             <div className="qc-card__item">
                 <div className="qc-card__item-img"><img src={Icon3} alt="img" /></div>
-                <h4 className="qc-card__item-title">CRM for strategies</h4>
+                <h4 className="qc-card__item-title">SaaS for algotrading</h4>
                 <p className="qc-card__item-description">Easy management of algorithms for traders </p>
                 <a href="#" className="qc-card__item-link">Read more</a>
             </div>

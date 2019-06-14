@@ -19,9 +19,8 @@ const CrmSection = () => (
         backgroundImage: "url(" + FreedomBg + ")",
     }}>
         <div className="qc-crm__left">
-            <h2 className="qc-crm__title">CRM</h2>
-            <p className="qc-crm__description">Designed by former Goldman Sachs FinTech engineers, Solidus' market surveillance platform utilizes machine learning to help detect, address, investigate and report market manipulation in digital asset trading.<br/>
-With Solidus’ solution our clients - including digital asset broker dealers, market makers, hedge funds, centralized and decentralized exchanges -  reduce risk, increase transparency, minimize costs and work towards compliance.</p>
+            <h2 className="qc-crm__title">SAAS</h2>
+            <p className="qc-crm__description">A powerful system that allows you to manage hundreds of algorithms without programming knowledge. You can quickly create new bots based on the algorithms that the developer has created, update configurations to the algorithms, and analyze trading sessions. SaaS greatly accelerates your efficiency and makes boring and monotonous work instead of you.</p>
 <div className="qc-crm__bullets">
             <div className="qc-crm__bullets-item">
                 <img src={ImgSetup} className="qc-crm__bullets-img" alt="img" />
