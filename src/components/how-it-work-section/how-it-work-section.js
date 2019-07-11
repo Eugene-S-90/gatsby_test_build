@@ -30,7 +30,7 @@ const HowItWorksSection = (props) => (
             <p className="qc-how-it-works__descr">Algo-trading<br/> management</p>
             </div>
             <div class="qc-how-it-works__img-wr"><img className="qc-how-it-works__img" src={Bullet1} alt="bullet" />
-            <p className="qc-how-it-works__descr">Auto-reportsm</p>
+            <p className="qc-how-it-works__descr">Auto-reports</p>
             </div>
         </div>
         <a href="#" class="qc-how-it-works__btn " onClick={props.onOpenModal}>Make a request</a>
